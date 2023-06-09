@@ -7,33 +7,41 @@
                 margin: 0
             }
             
+            
             .header, .footer{
                 background-color:powderblue; 
                 text-align: center;
-                font-size: 30px;
+                font-size: 15px;
                 padding: 5px;
             }
 
 
             .content {
-                 background-color:lightpink;
-               font-size: 30px;
-               width: 480px;
-               height:850px;
-               padding:50px;
+                background-color:lightpink;
+               font-size: 15px;
+               width: 65%;
                display: inline-block;
+               float: left;
+               height: 100%;
             }   
 
 
             .menu, .ad {
                 background-color:plum;
-                padding: 50px;
-                width: 200px;
-                height: 300px;
+                width: 17.5%;
                 text-align: center;
-                display: inline-block;
+                display:inline-block;
+                height:100%;
             }
 
+            .menu {
+                float:left;
+            }
+
+            .middle {
+                height: 300px;
+                width: 100%;
+        }
     
         </style>
 
@@ -48,7 +56,7 @@
         </header>
         
         
-
+<div class="middle">
         <aside class="menu">
             <p>Menu</p>
             <ul>
@@ -82,7 +90,7 @@
             <p>Ad</p>
         </aside>
 
-
+</div>
 
         <footer class="footer">
                 <h1>Footer</h1>
